@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 设计匠艺训练营
-tags:	OO、设计原则、设计模式、UDD、TDD、DDD、重构
+tags: Ruby、RubyOnRails、MVC、Ajax
 description: 使用长剑如何获胜要根据武术的规则。这些无法详细列出；你必须认识到如何通过练习来获胜。-宫本武藏
 category: courses
 ---
