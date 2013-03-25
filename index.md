@@ -10,12 +10,21 @@ layout: default
                 <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
                 <span>{{ post.keywords }}</span>
             </header>
-            <a href="{{ post.url }}">
             <p>{{ post.description }}</p>
-            </a>
         </article>
         {% endfor %}
     </section>
+    <ul>
+    {% for post in site.categories.courses %}
+        <li>
+            <h2>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </h2>
+            <span class="title-desc">{{ post.description }}</span>
+        </li>
+        <br/>
+    {% endfor %}
+    </ul>
     <script type="text/javascript">
             $(function() {
                 
