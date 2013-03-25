@@ -8,13 +8,13 @@ layout: default
         <article>
             <header>
                 <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-                <span>{{ post.keywords }}</span>
+                <span>{{ post.tags }}</span>
             </header>
             <p>{{ post.description }}</p>
         </article>
         {% endfor %}
     </section>
-    <ul>
+<!--     <ul>
     {% for post in site.categories.courses %}
         <li>
             <h2>
@@ -24,7 +24,7 @@ layout: default
         </li>
         <br/>
     {% endfor %}
-    </ul>
+    </ul> -->
     <script type="text/javascript">
             $(function() {
                 
