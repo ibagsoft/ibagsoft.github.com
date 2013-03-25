@@ -1,0 +1,6 @@
+markdown:         rdiscount
+pygments:         true
+permalink:        /:title
+
+title:            iBagsoft's Courses
+description:      "iBagsoft\'s Blog"
