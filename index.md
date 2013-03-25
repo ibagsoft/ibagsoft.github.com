@@ -8,7 +8,7 @@ layout: default
         <article>
             <header>
                 <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-                <span>{{ post.tags }}</span>
+                <a href="{{ post.url }}"><span>{{ post.tags }}</span></a>
             </header>
             <p>{{ post.description }}</p>
         </article>
